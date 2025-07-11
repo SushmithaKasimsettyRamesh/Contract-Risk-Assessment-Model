@@ -2,27 +2,27 @@
 
 A machine learning solution that predicts contract risk scores for live entertainment industry bookings, helping agencies proactively manage operational and financial risks.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project addresses unpredictability in contract execution within the live entertainment industry by leveraging historical data from over **290,000 contracts** to build a predictive risk scoring system. The solution combines business rule logic with data-driven insights to identify high-risk contracts that may suffer from cancellations, overdue payments, or short lead times.
 
 **Key Achievement**: Deployed production-ready ML model with **86.7% R² accuracy** and **<50ms API response time**.
 
-## 🚀 Business Impact
+## Business Impact
 
 - **Proactive Risk Management**: Enables booking agents to intervene early in high-risk contracts
 - **Improved Forecasting**: Enhanced revenue predictability for leadership teams
 - **Operational Efficiency**: Reduced last-minute disruptions and manual interventions
 - **Better Customer Experience**: Minimized event cancellations and delays
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Machine Learning**: Python, Scikit-learn, Pandas, NumPy
 - **Data Processing**: Azure SQL Server, ODBC connections
 - **Model Deployment**: Azure Machine Learning, REST API
 - **Environment Management**: Conda, Docker containers
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Value |
 |--------|--------|
@@ -31,14 +31,14 @@ This project addresses unpredictability in contract execution within the live en
 | **Root Mean Squared Error** | 0.94 |
 | **API Response Time** | ~20ms |
 
-## 🔍 Key Features Engineered
+## Key Features Engineered
 
 1. **Temporal Features**: Issue-to-event lead time analysis
 2. **Financial Features**: Financial delta calculations (Gross - Artist Net - Commission)
 3. **Risk Flags**: First-time presenter identification, overdue deposit tracking
 4. **Behavioral Patterns**: Agent performance metrics and historical trends
 
-## 🏗️ Architecture
+## Architecture
 
 The solution follows an end-to-end ML pipeline:
 
@@ -87,7 +87,7 @@ contract-risk-assessment/
    jupyter notebook Model_Training.ipynb
    ```
 
-## 🔑 Key Insights
+##  Key Insights
 
 **Top Risk Predictors** (by feature importance):
 - **Issue-to-Event Days**: Short lead times strongly correlate with contract failures
@@ -104,7 +104,7 @@ The model successfully identifies high-risk contracts with **86.7% accuracy**, e
 - Enhanced client satisfaction
 - Better financial forecasting
 
-## 🔄 Deployment
+##  Deployment
 
 The model is deployed as a production REST API on Azure Machine Learning with:
 - **Scalability**: Azure Container Instance with 2 vCPUs, 4GB RAM
@@ -112,20 +112,20 @@ The model is deployed as a production REST API on Azure Machine Learning with:
 - **Monitoring**: Integrated Application Insights
 - **Performance**: Sub-50ms response times
 
-## ⚠️ Limitations
+##  Limitations
 
 - External factors (weather, health, legal issues) not accounted for
 - Risk labels derived from heuristic rules rather than confirmed outcomes
 - Potential bias from training data patterns
 - Dependency on timely CRM data updates
 
-## 🤝 Team
+## Team
 
 **Team Members**: Sushmitha Ramesh, Dinakar Murthy, Bhanu Teja Nandina,  Piyush Sonawane  
 **Advisor**: Archit Garg  
 **Program**: ElevateMe Bootcamp
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
