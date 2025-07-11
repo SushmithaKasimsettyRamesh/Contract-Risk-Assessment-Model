@@ -48,7 +48,7 @@ The solution follows an end-to-end ML pipeline:
 4. **Deployment**: Scalable REST API on Azure Container Instance
 5. **Monitoring**: Real-time performance tracking and logging
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 contract-risk-assessment/
@@ -61,7 +61,7 @@ contract-risk-assessment/
 └── requirements.txt              # Python dependencies
 ```
 
-## 🚦 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8+
