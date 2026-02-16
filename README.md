@@ -123,7 +123,7 @@ The model is deployed as a production REST API on Azure Machine Learning with:
 
 **Team Members**: Sushmitha Ramesh, Dinakar Murthy, Bhanu Teja Nandina,  Piyush Sonawane  
 **Advisor**: Archit Garg  
-**Program**: ElevateMe Bootcamp
+
 
 ##  License
 
